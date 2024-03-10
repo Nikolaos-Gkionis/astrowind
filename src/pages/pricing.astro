@@ -17,8 +17,8 @@ const metadata = {
 
   <HeroText
     tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
+    title="Fixed Pricing for Every Need"
+    subtitle="Choose the perfect package that aligns with your projects. No hidden costs or unexpected charges."
   />
 
   <!-- Pricing Widget ******************* -->
@@ -29,82 +29,82 @@ const metadata = {
     prices={[
       {
         title: 'basic',
-        subtitle: 'Optimal choice for personal use',
-        price: 29,
+        subtitle: 'Optimal choice for single resource use',
+        price: 10000,
         period: 'per month',
         items: [
           {
-            description: 'Etiam in libero, et volutpat',
+            description: '1 person resource',
           },
           {
-            description: 'Aenean ac nunc dolor tristique',
+            description: 'Full calendar month',
           },
           {
-            description: 'Cras scelerisque accumsan lib',
+            description: 'Designer or Researcher',
           },
           {
-            description: 'In hac habitasse',
+            description: 'Ideal for early Alpha teams',
           },
         ],
         callToAction: {
           target: '_blank',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
       },
       {
         title: 'standard',
         subtitle: 'Optimal choice for small teams',
-        price: 69,
+        price: 50000,
         period: 'Per Month',
         items: [
           {
-            description: 'Proin vel laoreet',
+            description: '5 persons resource',
           },
           {
-            description: 'Ut efficitur habitasse egestas',
+            description: 'Full calendar month',
           },
           {
-            description: 'Volutpat hac curabitur',
+            description: 'Designer , Researcher or Developer',
           },
           {
-            description: 'Pellentesque blandit ut nibh',
+            description: 'Business Analyst or QA Tester',
           },
           {
-            description: 'Donec fringilla sem',
+            description: 'Ideal for a Project Manager with a limited budget',
           },
         ],
         callToAction: {
           target: '_blank',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
         hasRibbon: true,
         ribbonTitle: 'popular',
       },
       {
         title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
+        subtitle: 'Optimal choice for Larger teams',
+        price: 120000,
         period: 'Per Month',
         items: [
           {
-            description: 'Curabitur suscipit risus',
+            description: 'Traditional team of 10 resources',
           },
           {
-            description: 'Aliquam habitasse malesuada',
+            description: 'Embeded in an Agile / Scrum team',
           },
           {
-            description: 'Suspendisse sit amet blandit',
+            description: 'Fixed contract - minimum term 6 months',
           },
           {
-            description: 'Suspendisse auctor blandit dui',
+            description: 'Ideal for larger Departments with limited ability to flex resource',
           },
         ],
         callToAction: {
           target: '_blank',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
       },
     ]}
@@ -114,17 +114,18 @@ const metadata = {
 
   <Features3
     title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    subtitle="Discover the advantages of choosing our packages"
     columns={2}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
+        title: 'Fixed Pricing Packages',
+        description:
+          'Choose from a range of pricing packages designed to accommodate different budgets and requirements.',
         icon: 'tabler:stairs',
       },
       {
         title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
+        description: 'Clearly displayed pricing details for each package, with no hidden costs or unexpected charges.',
         icon: 'tabler:flip-vertical',
       },
       {
@@ -133,18 +134,18 @@ const metadata = {
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
-        icon: 'tabler:accessible',
-      },
-      {
         title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
+        description: 'Upgrade to higher-tier packages to scale your team as your needs change.',
         icon: 'tabler:chevrons-up',
       },
       {
+        title: 'No Long Term Commitment',
+        description: 'Cancel at any time. No long term contracts. No penalties.',
+        icon: 'tabler:chevrons-down',
+      },
+      {
         title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
+        description: 'Questions answered via email or phone, every calendar day. Excluding Sundays and Bank Holidays',
         icon: 'tabler:headset',
       },
     ]}
@@ -154,36 +155,36 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="A guided journey from plans to creativity"
+    title="A guided journey from Discovery to Delivery!"
     tagline="simplified process"
     isReversed={true}
     items={[
       {
-        title: 'Explore plans',
+        title: 'Explore packages',
         icon: 'tabler:number-1',
       },
       {
-        title: 'Select a plan',
+        title: 'Select a package',
         icon: 'tabler:number-2',
       },
       {
-        title: 'Sign Up / Log In',
+        title: 'Contact us',
         icon: 'tabler:number-3',
       },
       {
-        title: 'Review order',
+        title: 'Review requirements',
         icon: 'tabler:number-4',
       },
       {
-        title: 'Enter payment details',
+        title: 'Agree package details',
         icon: 'tabler:number-5',
       },
       {
-        title: 'Confirmation',
+        title: 'Sign your subscription',
         icon: 'tabler:number-6',
       },
       {
-        title: 'Download and start using the template(s)',
+        title: 'Start our journey together',
         icon: 'tabler:number-7',
       },
     ]}
@@ -197,33 +198,42 @@ const metadata = {
 
   <FAQs
     title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
+    subtitle="Choosing the right package is important, and we're here to answer your questions. If you have queries about our packages, you're in the right place."
     columns={1}
     items={[
       {
-        title: 'Do the plans come with customer support?',
+        title: 'Do the packages come with customer support?',
         description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+          'Absolutely, all packages include access to our dedicated customer support to assist you with any queries or concerns.',
       },
       {
-        title: 'Is there a trial period for the different plans?',
+        title: 'Is there a trial period for the different packages?',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          "Unfortunately, we don't offer trial periods for the packages. However, you can check out our blog section to preview the quality of our prototypes.",
       },
       {
-        title: 'Can I switch between plans?',
+        title: 'Can I switch between packages?',
         description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+          'Certainly! You can easily add more packages, or you can pause and restart at any time, to find the one that best suits your evolving requirements.',
       },
       {
         title: 'What payment methods do you accept?',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process. We use Stripe to handle all our transactions.',
       },
       {
         title: 'Are there any hidden fees beyond the displayed cost?',
         description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          'No, the subscription cost covers all the cost involved. There are no hidden fees or extra charges.',
+      },
+      {
+        title: 'Do you require a Statement of Work (SOW)?',
+        description:
+          'No, we do not require a Statement of Work (SOW). This is how we can keep our prices low and competitive. Reducing administration burden along with cost',
+      },
+      {
+        title: 'What happens if I need more resources than the largest package?',
+        description: 'We can create a custom package for you. Please contact us to discuss your requirements.',
       },
     ]}
   />
@@ -232,12 +242,12 @@ const metadata = {
 
   <CallToAction
     title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    subtitle="Join our  satisfied customers who have benefited from our packages."
     actions={[
       {
         variant: 'primary',
-        text: 'Get started now',
-        href: '/',
+        text: 'Start now',
+        href: '/contact',
       },
     ]}
   />

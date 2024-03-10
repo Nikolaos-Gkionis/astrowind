@@ -4,17 +4,14 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Design Prototypes',
-  ignoreTitleTemplate: true,
 };
 ---
 
@@ -25,14 +22,12 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Work with us',
+        href: '/contact',
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero-image-2.png', alt: 'Question one image' }}
   >
     <Fragment slot="title">
       Design <span class="hidden xl:inline">prototypes for</span>
@@ -41,12 +36,11 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
+        <span class="font-semibold">Design Prototypes</span> is a Prototype as a Service. A subscription model for individual
+        contributors or fully fledged teams.</span
       >
       <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+      Suitable for Government departments and local councils, rapid prototyping in a novel and different approach.
     </Fragment>
   </Hero>
 
@@ -58,44 +52,32 @@ const metadata = {
 
   <Features
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    tagline="How we do it"
+    title="What you get with "
+    subtitle="One of the novel approaches to designing GDS type prototypes currently on the market. Most comprehensive and easy to intergrate solution for your needs."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Novel Practices',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+          'Creating rapid prototypes, highly functional with minimal friction and research that deliver exceptional and lasting value.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Excellent Delivery Speed',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+          'Having a great and higly funtional prototype increases speed form idea to usability testing and minimal iteration to production',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'API integrations',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
+          'Real data from real sources, our prototypes mimic the real app down to the API intergrations, only for security reasons would we use synthetic data.',
         icon: 'tabler:arrows-right-left',
       },
       {
         title: 'Open to new ideas and contributions',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+          'Living a culture that is open to new ideas and contributions is integral to fostering innovation, collaboration, aiding a fast delivery.',
         icon: 'tabler:bulb',
       },
     ]}
@@ -105,23 +87,23 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="Behind the scenes"
+    title="Design Prototypes' Blueprint: Speed Meets Functionality!"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Built only for the GDS Front End',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Benefiting from the performance and developer-friendly features of this accesible Front End library.',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'Styled using govuk CSS',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Facilitating rapid design and consistent styling with this highly accessibility focused CSS framework.',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: 'Design lead, data driven',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Design first, research and user testing second. Get a highly functional prototype in front of users now.',
       },
     ]}
     image={{
@@ -130,8 +112,9 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Design on new foundations</h3>
+      Avoid the friction of neverending research and design, get a highly functional prototype in front of users in a fraction
+      of the time.
     </Fragment>
 
     <Fragment slot="bg">
@@ -145,23 +128,18 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'Scale fast, pause faster',
+        description: `Based on your needs we can scale from a single designer to a full Alpha team. Pause anytime no questions asked.`,
       },
       {
-        title: 'Multiple layout possibilities',
+        title: 'Multiple layout resources, no lock in',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'No lock in, we provide the resources to allow you to take the prototype and run with it, no lock in.',
       },
       {
-        title: 'Fully responsive design',
+        title: 'Fully responsive service',
         description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
-      },
-      {
-        title: 'Integration of media',
-        description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+          "Not the kind of 'responsive' you're thinking of. We are responsive to your needs, Start with a researcher add a designer, add a developer, add a full Alpha team.",
       },
     ]}
     image={{
@@ -169,14 +147,18 @@ const metadata = {
       alt: 'Blueprint Image',
     }}
   >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Not just prototypes</h3>
+      But a new way of thinking about rapid prototyping. Based on your needs we can scale from a single designer to a full
+      Alpha team.
+    </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
+  <!-- Content Widget **************** 
 
   <Content
     isReversed
@@ -214,28 +196,30 @@ const metadata = {
     </Fragment>
   </Content>
 
+  -->
+
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="Get from idea to usability testing in no time with our Subscription model."
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: 'Step 1: <span class="font-medium">Engage</span>',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
+          'Deside the package that suits your specific needs. Join a brief kick off call, we set you up with a chat channel and a KanBan board, and we are off to the races!',
         icon: 'tabler:package',
       },
       {
         title: 'Step 2: <span class="font-medium">Add content</em>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
+          'Pour your vision into it. Add logic, text, and all that dynamic breath of life into your digital service. Remember, we want you to have a good start and decrease the time to Private Beta.',
         icon: 'tabler:letter-case',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Step 3: <span class="font-medium">Test and Iterate</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
+          'Get your prototype in front of users, get feedback, make changes, get it in front of users, get feedback, make changes, stop only when you are satisfied.',
+        icon: 'tabler:users',
       },
       {
         title: 'Ready!',
@@ -248,7 +232,7 @@ const metadata = {
     }}
   />
 
-  <!-- Features2 Widget ************** -->
+  <!-- Features2 Widget ************** 
 
   <Features2
     title="Most used widgets"
@@ -311,6 +295,7 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
+  -->
 
   <!-- HighlightedPosts Widget ******* -->
 
@@ -326,74 +311,62 @@ const metadata = {
 
   <FAQs
     title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+    subtitle="Dive into the details. How the subscription model is truly a discuprive method that will increase your velocity and decrease your time to Private Beta."
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why AstroWind?',
+        title: 'Why Design Prototypes?',
         description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+          'With years of combined experience, we have been there and done that. We have been in the trenches and we know what you need. We can be just a designer, we can be a researcher, we can be a developer, we can be a full Alpha team.',
       },
       {
         title: 'What do I need to start?',
         description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+          'A clear enough Discovery document. We will help you with the rest. From policy intend to a "Start Now" button, we can take your service from Discovery to Private Beta in a fraction of the time.',
       },
       {
-        title: 'How to install the Astro + Tailwind CSS template?',
+        title: 'How do we differ from traditional agencies?',
         description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+          "Well, we simply cut of the middlemen, no Umbrella's no Agencies. Providing a 15% budget savings whilst we reduce the delivery time to a fraction of the GDS suggested scope for an Alpha.",
       },
       {
-        title: "What's something that you don't understand?",
+        title: "What if you don't like the results?",
         description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+          'This is a subscription service, we will continue to iterate until you are 100% satisfied. We will even help you with the GDS Service Standard Assessment.',
       },
     ]}
   />
 
-  <!-- Stats Widget ****************** -->
+  <!-- Stats Widget ******************
 
   <Stats
     stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
+      { title: 'Combined Experience', amount: '89Y' },
+      { title: 'GOVUK Departments', amount: '27' },
+      { title: 'Public Users', amount: '13.5M' },
+      { title: 'Internal Users', amount: '15K' },
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
+       CallToAction Widget *********** -->
 
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Get in touch',
+        href: '/contact',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Design&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Prototypes</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      With our direct approach, you can save your Project from failure. <br class="hidden md:inline" />Don't waste more
+      time! :P
     </Fragment>
   </CallToAction>
 </Layout>

@@ -1,0 +1,214 @@
+---
+import Layout from '../layouts/PageLayout.astro';
+
+import Hero2 from '../components/widgets/Hero2.astro';
+import Features from '../components/widgets/Features.astro';
+import Steps2 from '../components/widgets/Steps2.astro';
+import Content from '../components/widgets/Content.astro';
+
+import BlogLatestPosts from '../components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'Prototypes as a Service',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="PaaS Demo"
+    actions={[
+      { variant: 'primary', text: 'Get Started', href: '/contact' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'AstroWind Hero Image',
+    }}
+  >
+    <Fragment slot="title">
+      Accelarate with: <br /> your ultimate <span class="text-accent dark:text-white highlight">PaaS</span> solution<br
+      />
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Decrease your delivery time with <span class="font-semibold">Prototypes as a Service</span>.</span
+      >
+      Blend the knowledge of your existing team with the skills and efficiency of D-P's PaaS solutions to deliver faster
+      and better.
+    </Fragment>
+  </Hero2>
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    title="Why choose Design Prototypes?"
+    subtitle="Each of the following features enhances Design Prototypes's value proposition."
+    columns={2}
+    items={[
+      {
+        title: 'Increase velocity. Decrease delivery time',
+        description:
+          'Most of the traditional teams out there are slow and inneficient. We remove the need for repeating status meetings and allow our people to focus on the delivery of your project.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Agile is poorly executed. We are different',
+        description: `After years of experience we came to a deep realisation, a moment of truth. Most teams do Scrum badly and use Jira. This is not what agile meant to be, we on the other hand respond to the real business need.`,
+        icon: 'tabler:clock',
+      },
+      {
+        title: 'Six weeks are better than two, we work in Cycles',
+        description:
+          'We deliver in six weeks what others do in six months. We are not only faster but also better. We deliver the right thing, not just what was asked for. We align policy intend with user need.',
+        icon: 'tabler:clock',
+      },
+      {
+        title: 'Optimized for Alpha, ready for Beta',
+        description: `Our Alpha teams or even our single ICs are capable of delivering a fully functional prototype. Depending on the programming language of your department we can deliver a production ready coded prototype.`,
+        icon: 'tabler:podium',
+      },
+      {
+        title: 'Well documented, from idea to handover',
+        description: `We document our work in a way that allows you to take over the project at any time. We do not only document the code but also the decisions we made and the learnings we had.`,
+        icon: 'tabler:writing-sign',
+      },
+      {
+        title: 'Unique in every way',
+        description: `We are not only different from traditional teams but also the UK's first PaaS providers. We are the only ones that can deliver a production ready coded prototype.`,
+        icon: 'tabler:eyeglass',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    title="The Why files.."
+    subtitle="Discover how Design Prototypes versatile approach serves as the ideal solution for various use cases, providing tailored solutions to drive success."
+    isReversed
+    items={[
+      {
+        title: 'Description:',
+        description:
+          'Are you a smaller department within a larger organisation? Are you in need of a Discovery Duo? Designer, Researcher, ready to go? We are the only ones that can deliver a production ready coded prototype. Run the research to iterate the prototype. Handover the prototype to your development team. Why go through the traditional route, waste time and money? Our people are vetted, security cleared and ready to start when you are.',
+      },
+      {
+        title: 'Benefits:',
+        description: `Bring your idea to a fully functional prototype in six weeks, add research and iterate or simply takeover the prototype and build your service. We are the only ones that can deliver a production ready coded prototype. In this timescale we can do this with 2 ICs or a whole team. Want more? We'll take you from Alpha assessment through Private Beta to Beta assessment. Don't need this much, pause 1, 2 or the entire team when you want.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1620558138198-cfb9b4f3c294?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1671&q=80',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Small success stories: <br /><span class="text-2xl">Launching with Design Prototypes</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+        description: `We have a kick off meeting and get all the requirements needed to deliver the policy intend. After that initial meeting we have a clear goal and an understanding on what we need to deliver. We joing one 15 minute stand up in the morning and get to work. No planning, no estimations, no status meetings. We chat and deliver, we believe that anything that is not working software is simply a hindrance to delivery.`,
+      },
+      {
+        title: 'Benefits:',
+        description: `As a Project Manager, Service Owner or Delivery Manager you can focus on the policy intend and leave the rest to us. We deliver the policy intend and nothing else. We are the only ones that can deliver a production ready coded prototype. At a fraction of the time and cost of what you have been used to.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1531973486364-5fa64260d75b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1658&q=80',
+      alt: 'PaaS Businesses Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Our engagement style: <br /><span class="text-2xl">Streamlined for delivery</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+        description: `We do not force IR35 rules to our people, We do not ask a middleman to take away a percentage of their pay for zero or fake benefits. We believe that all have agency and we treat our people equally and with care. We offer 24 days plus Bank holidays to everyone, we are all at the same level with equal pay. Our proffesionals are at G7-G6 levels we have no offices and no overheads.`,
+      },
+      {
+        title: 'Benefits:',
+        description: `Serve as a captivating backdrop to showcase our creative work, we only engage with the best and treat them with care. In return we can provide their services to your organisation at a fraction of the cost of a traditional resource. We can do all this because of the way we work, and the people that we work with.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Portfolio Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Creative professionals: <br /><span class="text-2xl">Treated with care</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Reach out to us"
+    subtitle="Have questions? We're here to help!"
+    callToAction={{
+      text: 'Contact us',
+      href: '/contact',
+    }}
+    items={[
+      {
+        title: 'Email us',
+        description: 'support@understairs.ltd',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Call us',
+        description: '0800 669 6250',
+        icon: 'tabler:headset',
+      },
+    ]}
+  />
+
+  <!-- BlogLatestPost Widget **************** -->
+
+  <BlogLatestPosts
+    title="Stay informed with AstroWind's blog"
+    information={`Explore our collection of articles, guides, and tutorials on web development, design trends, and using AstroWind effectively for your projects.`}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
+</Layout>

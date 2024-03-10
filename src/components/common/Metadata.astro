@@ -16,7 +16,7 @@ export interface Props extends MetaData {
 
 const {
   title,
-  ignoreTitleTemplate = false,
+  ignoreTitleTemplate = true,
   canonical = String(getCanonical(String(Astro.url.pathname))),
   robots = {},
   description,
