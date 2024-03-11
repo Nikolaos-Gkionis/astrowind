@@ -25,11 +25,11 @@ From a UX research perspective, incorporating user feedback is essential for ens
 
 In response to the user feedback, we implemented a postcode search functionality to streamline the address input process. We replaced the original fieldset of inputs with a simple postcode field input, allowing users to search for UK postcodes. This change significantly reduced the number of steps required to enter an address, making the process more efficient and user-friendly.
 
-![Previous](/src/assets/images/postcode1.png)
+![Previous](src/assets/images/postcode1.png)
 
 With a simple postcode field input, to allow the user to search for UK postcodes.
 
-![Current](/src/assets//images/postcode2.png)
+![Current](src/assets/images/postcode2.png)
 
 The result is a list of radio buttons with the return addresses
 
@@ -37,11 +37,11 @@ The result is a list of radio buttons with the return addresses
 
 After the user selects an address the results are transferred to a CYA or wherever they are required in the journey.
 
-![Current](/src/assets/images/postcode5.png)
+![Current](src/assets/images/postcode5.png)
 
 If the call returns no results the user is then taken to an address not found page, where the option to add the address manually is provided.
 
-![Current](/src/assets/images/postcode4.png)
+![Current](src/assets/images/postcode4.png)
 
 ### User Testing and validation
 

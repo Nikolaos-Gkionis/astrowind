@@ -59,7 +59,7 @@ Working on the NCTS phase 5 prototype we have used the `HTML` form validation fo
 
 Simply put, if the user does not enter information in the input field or select a radio they get an error message.
 
-![A screenshot](/assets/error.png 'A screenshot of the error message')
+![A screenshot](src/assets/images/error.png 'A screenshot of the error message')
 <br>
 
 However, this approach requires `javaScript` injected in the `/javascripts` folder of the project, named `validation.js`. You can copy the code below or download it via the link on the related content.

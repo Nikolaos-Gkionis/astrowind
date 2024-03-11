@@ -18,7 +18,7 @@ In an 'pair programming' session between myself and the 2 interaction designers,
 
 ## Screenshots
 
-![A screenshot](/src/assets/images/tax01.png 'A screenshot of the guarantee sub-journey')
+![A screenshot](src/assets/images/tax01.png 'A screenshot of the guarantee sub-journey')
 <br>
 
 The radio buttons lead to divergent paths in the rest of the user journey, this can be achieved in the `routes.js` file.
@@ -92,26 +92,26 @@ router.post('/guarantee-reference', function (req, res) {
 });
 ```
 
-![A screenshot](/src/assets/images/tax02.png 'A screenshot of the guarantee sub-journey')
+![A screenshot](src/assets/images/tax02.png 'A screenshot of the guarantee sub-journey')
 <br>
 
-![A screenshot](/src/assets/images/tax03.png 'A screenshot of the guarantee sub-journey')
+![A screenshot](src/assets/images/tax03.png 'A screenshot of the guarantee sub-journey')
 <br>
 
-![A screenshot](/src/assets/images/tax04.png 'A screenshot of the guarantee sub-journey')
+![A screenshot](src/assets/images/tax04.png 'A screenshot of the guarantee sub-journey')
 <br>
 
-![A screenshot](/src/assets/images/tax05.png 'A screenshot of the guarantee sub-journey')
+![A screenshot](src/assets/images/tax05.png 'A screenshot of the guarantee sub-journey')
 <br>
 
-![A screenshot](/src/assets/images/tax06.png 'A screenshot of the guarantee sub-journey')
+![A screenshot](src/assets/images/tax06.png 'A screenshot of the guarantee sub-journey')
 <br>
 
 #### The add another feature
 
 At the end of the journey the user is presented with an option to add another guarantee to their declaration, this can go up to 9 different guarantees and then the user needs to remove one before adding another.
 
-![A screenshot](/src/assets/images/tax07.png 'A screenshot of the guarantee sub-journey')
+![A screenshot](src/assets/images/tax07.png 'A screenshot of the guarantee sub-journey')
 <br>
 
 #### A D.R.Y (A Do not Repeat Yourself)
@@ -228,5 +228,5 @@ router.post('/add-another-guarantee', function (req, res) {
 
 At the end of the journey the user is then taken back to the declaration summary where they can see that they have completed this section.
 
-![A screenshot](/src/assets/images/tax08.png 'A screenshot of the declaration summary')
+![A screenshot](src/assets/images/tax08.png 'A screenshot of the declaration summary')
 <br>
