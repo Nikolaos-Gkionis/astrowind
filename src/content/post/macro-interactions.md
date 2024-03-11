@@ -1,8 +1,9 @@
 ---
-publishDate: 2023-07-17T00:00:00Z
+publishDate: 2022-07-14T00:00:00Z
+author: Nikolaos Gkionis
 title: Macro interactions
-excerpt: A series of different approaches to a single user problem. Iterations based on User Research.
-image: https://images.unsplash.com/photo-1518687101634-fc4c00e0030f?q=80&w=2838&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+excerpt: A series of different approaches to a single user problem. Iterations based on User Research. Achieving a 100% success task completion rate.
+image: https://images.unsplash.com/photo-1576595580361-90a855b84b20?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 ## The user problem

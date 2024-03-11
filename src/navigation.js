@@ -34,8 +34,8 @@ export const footerData = {
     {
       title: 'Platform',
       links: [
-        { text: 'Social Impact', href: '/landing/lead-generation' },
-        { text: 'Net Zero', href: 'landing/product' },
+        { text: 'Social Impact', href: '/platform/social-impact' },
+        { text: 'Net Zero', href: '/platform/net-zero' },
       ],
     },
     {

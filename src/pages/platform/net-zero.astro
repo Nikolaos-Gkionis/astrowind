@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/LandingLayout.astro';
+import Hero from '../../components/widgets/Hero.astro';
+import CallToAction from '../../components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Net Zero',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Net Zero"
+    title="We are a Net Zero bunch!"
+    subtitle="We are working on the content of these page. You will see them very soon. Stay tuned Stay tuned!"
+    actions={[
+      { variant: 'primary', text: 'Contact us', href: '/contact', icon: 'tabler:square-rounded-arrow-right' },
+      { text: 'Learn more', href: '/platform/social-impact' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1709727695189-a0bbd19738f6?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'A spotlight on a product. Net zero page',
+    }}
+  />
+
+  <CallToAction
+    title="Coming soon"
+    subtitle="We are working on the content of these pages. You will see them very soon. Stay tuned Stay tuned!"
+  />
+</Layout>
