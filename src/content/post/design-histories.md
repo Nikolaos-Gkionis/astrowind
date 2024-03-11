@@ -11,7 +11,7 @@ image: https://images.unsplash.com/photo-1630852722708-5e5f534700be?q=80&w=2970&
 The 'design histories' have been around for more than a couple of years. Originally created by the interaction designers of the BAT (Becoming a Teacher), their design history [BAT design history](https://bat-design-history.netlify.app/).
 Well over two and a half years ago I created the same for the SDD (Solutions Delivery and Design), [SDD design history](https://sdd-design-history.netlify.app/). Since then it became apparent that not all Service and Interaction designers can use it efficiently, and write design histories in a consistent manner. Therefore I decided to [add a CMS](https://understairs.ltd/histories/adding-a-cms) on the 'design histories'. To allow more adoption and a consistent design going forward.
 
-[![Design History](/src/assets/images/design-history.png)
+![Design History](/src/assets/images/design-history.png 'Design History')
 
 #### Netlify CMS Design
 
