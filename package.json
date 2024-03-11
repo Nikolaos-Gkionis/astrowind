@@ -1,7 +1,7 @@
 {
-  "name": "@onwidget/astrowind",
-  "description": "AstroWind: A free template using Astro 4.0 and Tailwind CSS. Astro starter theme.",
-  "version": "1.0.0-beta.20",
+  "name": "@design/prototypes",
+  "description": "A prototypes as a service designed for the UK Government using the GDS Design System",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "astro dev",
