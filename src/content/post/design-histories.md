@@ -3,7 +3,7 @@ publishDate: 2022-09-05T00:00:00Z
 author: Nikolaos Gkionis
 title: Design Histories
 excerpt: Design Histories, what are they, why we use them and so should everyone. That's why we created a CMS to include them in our workflow.
-image: /src/assets/images/bat.png
+image: https://images.unsplash.com/photo-1630852722708-5e5f534700be?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 ### What are they?
