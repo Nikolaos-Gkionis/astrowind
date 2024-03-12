@@ -1,5 +1,4 @@
 ---
-publishDate: 2022-07-14T00:00:00Z
 author: Nikolaos Gkionis
 title: Macro interactions
 excerpt: A series of different approaches to a single user problem. Iterations based on User Research. Achieving a 100% success task completion rate.

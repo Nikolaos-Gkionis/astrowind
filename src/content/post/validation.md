@@ -1,5 +1,4 @@
 ---
-publishDate: 2022-07-30T00:00:00Z
 author: Nikolaos Gkionis
 title: Validation
 excerpt: Should prototypes have validation? Yes, they should. At a minimum empty field validation needs to be implemented to ensure branching is accurately rendered.

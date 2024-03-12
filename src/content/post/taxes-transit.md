@@ -1,5 +1,4 @@
 ---
-publishDate: 2022-10-15T00:00:00Z
 author: Nikolaos Gkionis
 title: A difficult technical problem to solve
 excerpt: A difficult technical problem to solve, multiple divergent paths with a ton of dependencies. This is how we solved it.

@@ -1,5 +1,4 @@
 ---
-publishDate: 2022-09-05T00:00:00Z
 author: Nikolaos Gkionis
 title: Design Histories
 excerpt: Design Histories, what are they, why we use them and so should everyone. That's why we created a CMS to include them in our workflow.

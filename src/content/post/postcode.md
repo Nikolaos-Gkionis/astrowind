@@ -1,5 +1,4 @@
 ---
-publishDate: 2024-02-12T00:00:00Z
 author: Nikolaos Gkionis
 title: Postcode search
 excerpt: Improving the user experience for the majority of the users. Adding a postcode search that is returns AAA accessible results.
