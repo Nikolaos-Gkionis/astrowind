@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
@@ -14,40 +13,27 @@ const metadata = {
 
   <HeroText tagline="Contact" title="Let's Connect!" />
 
-  <form
-    name="contactUs"
-    method="POST"
-    data-netlify="true"
-    onsubmit="submit"
-    data-netlify-honeypot="bot-field"
-    action="/success"
-  >
+  <!-- Plain HTML Form for Netlify ******************* -->
+  <form name="contactUs" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/success">
     <input type="hidden" name="bot-field" />
     <input type="hidden" name="form-name" value="contactUs" />
-    <ContactUs
-      title="Drop us a message today!"
-      subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking for right there! If not, our support team is delighted to help you."
-      inputs={[
-        {
-          type: 'text',
-          name: 'name',
-          label: 'Name',
-        },
-        {
-          type: 'email',
-          name: 'email',
-          label: 'Email',
-        },
-      ]}
-      textarea={{
-        label: 'Message',
-      }}
-      disclaimer={{
-        label:
-          'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
-      }}
-      description="Our support team typically responds within 24 business hours."
-    />
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required />
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea name="message" id="message" required></textarea>
+    </div>
+    <div class="disclaimer">
+      By submitting this contact form, you acknowledge and agree to the collection of your personal information.
+    </div>
+    <button type="submit">Send Message</button>
+    <div>Our support team typically responds within 24 business hours.</div>
   </form>
 
   <!-- Features2 Widget ************** -->
@@ -62,7 +48,7 @@ const metadata = {
       {
         title: 'Contact sales',
         description:
-          'Chat with us for questions about package options, incresing or decreasing resource, inquiries about specific project issues, etc.',
+          'Chat with us for questions about package options, increasing or decreasing resource, inquiries about specific project issues, etc.',
       },
       {
         title: 'Ongoing support',
