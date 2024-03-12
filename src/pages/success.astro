@@ -2,7 +2,6 @@
 import Layout from '../layouts/PageLayout.astro';
 
 import Hero2 from '../components/widgets/Hero2.astro';
-import CallToAction from '../components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Sales Landing Page Demo',
@@ -13,29 +12,16 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="Long-form Sales Demo"
-    title="Long-form Sales: Sell with a Story: The Long-form Way!"
-    subtitle="Dive deep into crafting a Landing Page that narrates, persuades, and converts."
+    tagline="Email received"
+    title="🙏 We will get back to you by tomorrow! <br> But never on a Sunday... "
+    subtitle="Why don't you have a read through our blog in the meantime?"
     actions={[
-      { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
-      { text: 'Learn more', href: '#' },
+      { variant: 'primary', text: 'Back to homepage', href: '/', icon: 'tabler:home' }, // Updated href to point home.
+      { text: 'Learn more', href: '/blog', icon: 'tabler:chevron-right' },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1621452773781-0f992fd1f5cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1626&q=80',
+      src: 'https://images.unsplash.com/photo-1503980599186-9cc36eda351a?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Children telling a story. Long-form Sales Landing Page demo',
     }}
-  />
-
-  <CallToAction
-    title="Coming soon"
-    subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Download Template',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
-      },
-    ]}
   />
 </Layout>
