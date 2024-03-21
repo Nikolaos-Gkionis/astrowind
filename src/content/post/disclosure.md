@@ -19,13 +19,13 @@ The user research highlighted this part as a pain point as the similarity of the
 
 **Before the Enhancement**
 
-![Before Enhancement](/assets/disclosure/1.png)
+![Before Enhancement](src/assets/images/disclosure1.png)
 
-![Before Enhancement](/assets/disclosure/2.png)
+![Before Enhancement](src/assets/images/disclosure2.png)
 
-![Before Enhancement](/assets/disclosure/3.png)
+![Before Enhancement](src/assets/images/disclosure3.png)
 
-![Before Enhancement](/assets/disclosure/4.png)
+![Before Enhancement](src/assets/images/disclosure4.png)
 
 ### Full disclosure
 
@@ -33,7 +33,7 @@ We decided to bring all the questions together and fully disclose all the possib
 
 **After the Enhancement**
 
-![After Enhancement](/assets/disclosure/5.png)
+![After Enhancement](src/assets/images/disclosure5.png)
 
 ### Next steps
 
