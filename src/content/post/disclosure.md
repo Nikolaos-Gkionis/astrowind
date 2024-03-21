@@ -2,7 +2,7 @@
 author: Nikolaos Gkionis
 title: Disclosure
 excerpt: When one thing per page does not work, and progressive disclosure does not fit the context. A brief Design History.
-image: https://images.unsplash.com/photo-1630852722708-5e5f534700be?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: https://images.unsplash.com/photo-1473830394358-91588751b241?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 ## Full disclosure
