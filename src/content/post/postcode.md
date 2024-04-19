@@ -93,7 +93,7 @@ router.post('/find-subject-uk-address', function (req, res) {
             const parts = address.split(', ');
             const formattedParts = parts.map((part, index) => {
               if (index === parts.length - 1) {
-                // Preserve postcode (DL14 0DX) in uppercase
+                // Preserve postcode (SW1 3AF) in uppercase
                 return part.toUpperCase();
               }
               return part
